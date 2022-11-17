@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppTestShellTitleView.NewPage1"
+             Title="NewPage1">
+
+    <Shell.TitleView>
+        <Label x:Name="lblTitle"
+               BackgroundColor="LightYellow"
+               HorizontalOptions="Center"
+               VerticalOptions="Center"
+               FontSize="16"
+               FontAttributes="Bold"
+               Text="Shell.TitleView NewPage1" />
+    </Shell.TitleView>
+
+    <VerticalStackLayout>
+        <Label 
+            Text="Use the back button to return to the MainPage."
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+    </VerticalStackLayout>
+</ContentPage>
